@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources", //this is for features files path
         glue = "renastech/StepDefinitions", //this is for steps path
-        tags = "@ScenarioOutlineExample",
+        tags = "@smoke1",
         dryRun = false, //when it is true, it will check if there is any undefined steps
         plugin={"pretty",
                 "html:target/default-cucumber-reports.html",

@@ -8,16 +8,13 @@ Feature: Google search box verification
     And click to search button
     Then title matches with search text
 
-    @ScenarioOutlineExample
- Scenario Outline: User search a apple product in google search box
-   Given User wants to go to Google
-   When User enter a "<AppleProduct>" in search box
-   And click to search button for product
-   Examples:
-   |AppleProduct|
-   |Iphone 13 max|
-   |mac pro 2022 |
-   |Airpods      |
+
+
+
+
+
+
+
 
 
 

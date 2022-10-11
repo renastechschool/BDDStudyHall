@@ -24,11 +24,7 @@ public class GoogleSearchPage extends BrowserUtils {
     }
 
 
-    public void setSearchBoxScenarioOutline(String AppleProduct){
-       searchBox.sendKeys(AppleProduct);
-    }
-
-    public void setSearchBox(){
+       public void setSearchBox(){
         searchBox.sendKeys("Renastech");
     }
 

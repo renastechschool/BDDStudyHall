@@ -39,24 +39,6 @@ public class Steps extends BrowserUtils {
         googleSearchPage.verifyTextTitle();
     }
 
-    @Given("User wants to go to Google")
-    public void user_wants_to_go_to_google() {
-        Driver.getDriver();
-        driver.get(ConfigurationsReader.getProperties("url"));
 
-
-    }
-    @When("User enter a {string} in search box")
-    public void user_enter_a_in_search_box(String AppleProduct) {
-        staticWait(2);
-        googleSearchPage.setSearchBoxScenarioOutline(AppleProduct);
-
-
-    }
-    @When("click to search button for product")
-    public void click_to_search_button_for_product() {
-  googleSearchPage.setSearchButton();
-
-    }
 
 }
